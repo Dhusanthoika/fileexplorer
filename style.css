@@ -1,0 +1,65 @@
+/* Background */
+.root {
+    -fx-background-color: #f5f5f5;
+}
+
+/* Toolbar style */
+.toolbar {
+    -fx-background-color: #ffffff;
+    -fx-padding: 8;
+    -fx-spacing: 10;
+    -fx-border-color: #d1d1d1;
+    -fx-border-width: 0 0 1 0;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #e8e8e8;
+    -fx-text-fill: #333;
+    -fx-background-radius: 6;
+    -fx-padding: 6 12;
+}
+
+.button:hover {
+    -fx-background-color: #dcdcdc;
+}
+
+.button:pressed {
+    -fx-background-color: #c8c8c8;
+}
+
+/* Search bar */
+.text-field {
+    -fx-background-color: white;
+    -fx-background-radius: 6;
+    -fx-border-color: #cfcfcf;
+    -fx-padding: 5;
+}
+
+.text-field:focused {
+    -fx-border-color: #4a90e2;
+}
+
+/* TreeView (folder panel) */
+.tree-view {
+    -fx-background-color: #fafafa;
+    -fx-border-color: #e0e0e0;
+}
+
+/* File table */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #dcdcdc;
+    -fx-font-weight: bold;
+}
+
+/* Selected row */
+.table-row-cell:selected {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+}
